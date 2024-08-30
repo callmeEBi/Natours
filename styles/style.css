@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  padding: 3rem;
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url(../fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: "Lato-BlackItalic";
+  src: url(../fonts/Lato-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "Lato-Bold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+@font-face {
+  font-family: "Lato-BoldItalic";
+  src: url(../fonts/Lato-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "Lato-Italic";
+  src: url(../fonts/Lato-Italic.ttf);
+}
+@font-face {
+  font-family: "Lato-Light";
+  src: url(../fonts/Lato-Light.ttf);
+}
+@font-face {
+  font-family: "Lato-LightItalic";
+  src: url(../fonts/Lato-LightItalic.ttf);
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato-Thin";
+  src: url(../fonts/Lato-Thin.ttf);
+}
+@font-face {
+  font-family: "Lato-ThinItalic";
+  src: url(../fonts/Lato-ThinItalic.ttf);
+}
+body {
+  font-family: "Lato-Regular";
+  font-size: 1.5rem;
+}
+
+.header {
+  text-transform: uppercase;
+}
+.header--main_text, .header--sub_text {
+  text-align: center;
+  font-weight: 400;
+}
+.header--main_text {
+  font-size: 6.1rem;
+  letter-spacing: 3.4rem;
+}
+.header--sub_text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1.8rem;
+}
+
+.btn:link, .btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  background-color: #fff;
+  border-radius: 10rem;
+  width: 25.3rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  transition: all 0.3s ease-out;
+  position: relative;
+}
+.btn::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s ease-out;
+  z-index: -1;
+  border-radius: inherit;
+  background-color: inherit;
+}
+.btn:hover {
+  transform: translateY(-3px);
+}
+.btn:hover::after {
+  transform: scale(1.5);
+  opacity: 0;
+}
+.btn:active {
+  transform: translateY(-1px);
+}
+
+.header {
+  background: linear-gradient(to right bottom, rgba(119, 205, 109, 0.8), rgba(41, 179, 131, 0.8)), url(../images/hero-small.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 95vh;
+  width: 99%;
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+.header--logo {
+  width: 7rem;
+  margin: 4rem 0 0 4rem;
+}
+.header--main_text {
+  margin-top: 6rem;
+  color: #fff;
+}
+.header--sub_text {
+  margin-top: 1.7rem;
+  color: #fff;
+}
+.header--btn_wrapper {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

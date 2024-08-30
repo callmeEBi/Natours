@@ -1,0 +1,30 @@
+.header {
+  background: linear-gradient(
+      to right bottom,
+      rgba($color__green_light, 0.8),
+      rgba($color__green_dark, 0.8)
+    ),
+    url(../images/hero-small.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 95vh;
+  width: 99%;
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+
+  &--logo {
+    width: 7rem;
+    margin: 4rem 0 0 4rem;
+  }
+  &--main_text {
+    margin-top: 6rem;
+    color: $color__white;
+  }
+  &--sub_text {
+    margin-top: 1.7rem;
+    color: $color__white;
+  }
+  &--btn_wrapper{
+    text-align: center;
+    margin-top: 60px;
+  }
+}
