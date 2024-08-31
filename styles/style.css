@@ -138,6 +138,11 @@ body {
   text-transform: uppercase;
   font-family: lato-light;
   font-size: 28px;
+  line-height: 37px;
+  text-align: right;
+}
+.front--description {
+  text-align: center;
 }
 
 .feature_card {
@@ -171,20 +176,28 @@ body {
   perspective: 100rem;
   margin-top: 9rem;
   width: 34rem;
-  height: 52.4rem;
+  height: 52rem;
   position: relative;
+  border-radius: 10px;
 }
 .tour_card__front, .tour_card__back {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   transition: all 0.8s ease-out;
   width: 34rem;
   height: 52.4rem;
-  background-color: red;
+  background-color: #fff;
   backface-visibility: hidden;
   position: absolute;
 }
 .tour_card__back {
   background-color: blue;
   transform: rotateY(180deg);
+}
+.tour_card:hover .tour_card__front {
+  transform: rotateY(-180deg);
+}
+.tour_card:hover .tour_card__back {
+  transform: rotateY(0deg);
 }
 
 .front--image {
@@ -196,14 +209,26 @@ body {
   background-size: cover;
 }
 .front--title {
+  display: block;
   color: #fff;
   background: linear-gradient(to right bottom, #ffb206, #ff7f2b);
+  padding: 1rem;
   position: absolute;
   top: 10rem;
-  left: 10rem;
+  left: 18rem;
   box-decoration-break: clone;
-  line-height: 37px;
   opacity: 0.8;
+}
+.front--description {
+  list-style-type: none;
+  padding: 0 55px;
+  color: #777;
+  margin-top: 40px;
+}
+.front--description .front-list-item {
+  border-bottom: 1px solid rgba(119, 119, 119, 0.2);
+  padding-bottom: 15px;
+  margin-bottom: 7px;
 }
 
 .btn:link, .btn:visited {
@@ -388,6 +413,12 @@ body {
   margin-top: -130px;
   padding-top: 310px;
   overflow: hidden;
+}
+.section_four .tour_cards_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */

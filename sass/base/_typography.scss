@@ -87,8 +87,15 @@ body {
   }
 }
 
-.front--title {
-  text-transform: uppercase;
-  font-family: lato-light;
-  font-size: 28px;
+.front {
+  &--title {
+    text-transform: uppercase;
+    font-family: lato-light;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: right;
+  }
+  &--description {
+    text-align: center;
+  }
 }

@@ -46,4 +46,10 @@
   margin-top: -130px;
   padding-top: 310px;
   overflow: hidden;
+  .tour_cards_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
 }
