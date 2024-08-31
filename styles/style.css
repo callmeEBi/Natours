@@ -188,6 +188,9 @@ body {
   transform: translateY(-0.3rem);
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
 }
+.btn--learn:active {
+  transform: translateY(-0.1rem);
+}
 
 .feature_card {
   width: 24rem;

@@ -61,4 +61,7 @@
     transform: translateY(-0.3rem);
     box-shadow: 0 0 2rem rgba($color-black, 0.2);
   }
+  &:active {
+    transform: translateY(-0.1rem);
+  }
 }
