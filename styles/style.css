@@ -163,6 +163,25 @@ body {
   transform: translateY(-0.1rem);
 }
 
+.btn--learn:link, .btn--learn:visited {
+  display: inline-block;
+  background: linear-gradient(#29B383, #77CD6D);
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  border-bottom: 1px solid #29B383;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  transition: all 0.2s ease-out;
+}
+.btn--learn:hover {
+  background: linear-gradient(to left bottom, #29B383, #77CD6D);
+  color: #fff;
+  border: none;
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
 .composition {
   color: #777;
   margin-top: 100px;
@@ -180,11 +199,15 @@ body {
 .composition__left [class^=text] {
   margin-bottom: 40px;
 }
+.composition__left .btn::after {
+  border: 1px dashed red;
+}
 .composition__right {
   position: relative;
 }
 .composition__right:hover .img:not(:hover) {
   transform: scale(0.9);
+  filter: blur(4px);
 }
 .composition img {
   position: absolute;
