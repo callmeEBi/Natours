@@ -169,69 +169,69 @@ body {
   background-clip: text;
   color: transparent;
   text-decoration: none;
-  border-bottom: 1px solid #29B383;
-  padding-bottom: 1px;
-  padding-left: 5px;
+  border-bottom: 0.1rem solid #29B383;
+  padding-bottom: 0.1rem;
+  padding-left: 0.5rem;
   transition: all 0.2s ease-out;
 }
 .btn--learn:hover {
   background: linear-gradient(to left bottom, #29B383, #77CD6D);
   color: #fff;
   border: none;
-  transform: translateY(-3px);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
 }
 
 .composition {
   color: #777;
-  margin-top: 100px;
-  padding-left: 40px;
+  margin-top: 10rem;
+  padding-left: 4rem;
   display: flex;
 }
 .composition__left {
-  width: 498px;
-  margin-right: 30px;
+  width: 49.8rem;
+  margin-right: 3rem;
 }
 .composition__left h4 {
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .composition__left [class^=text] {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 .composition__left .btn::after {
-  border: 1px dashed red;
+  border: 0.1rem dashed red;
 }
 .composition__right {
   position: relative;
 }
 .composition__right:hover .img:not(:hover) {
   transform: scale(0.9);
-  filter: blur(4px);
+  filter: blur(0.4rem);
 }
 .composition img {
   position: absolute;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease-out;
 }
 .composition img:hover {
-  outline: 15px solid #77CD6D;
-  outline-offset: 18px;
-  border-radius: 10px;
+  outline: 1.5rem solid #77CD6D;
+  outline-offset: 1.8rem;
+  border-radius: 1rem;
   z-index: 3;
   transform: scale(1.05);
 }
 .composition .nat-1 {
-  left: 22px;
-  top: 5px;
+  left: 2.2rem;
+  top: 0.5rem;
 }
 .composition .nat-2 {
-  top: 26px;
-  left: 290px;
+  top: 2.6rem;
+  left: 29rem;
 }
 .composition .nat-3 {
-  top: 120px;
-  left: 184px;
+  top: 12rem;
+  left: 18.4rem;
 }
 
 .header {
@@ -280,6 +280,11 @@ body {
 .section_two .title:hover {
   transform: scale(1.1) skew(15deg, 2deg);
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.section_three {
+  background: #255;
+  height: 700px;
 }
 
 /*# sourceMappingURL=style.css.map */
