@@ -169,6 +169,10 @@ body {
   padding-left: 40px;
   display: flex;
 }
+.composition__left {
+  width: 498px;
+  margin-right: 30px;
+}
 .composition__left h4 {
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -177,9 +181,10 @@ body {
   margin-bottom: 40px;
 }
 .composition__right {
-  width: 1460px;
-  height: 290px;
   position: relative;
+}
+.composition__right:hover .img:not(:hover) {
+  transform: scale(0.9);
 }
 .composition img {
   position: absolute;
