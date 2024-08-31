@@ -26,13 +26,13 @@
     background-color: inherit;
   }
   &:hover {
-    transform: translateY(-3px);
+    transform: translateY(-0.3rem);
     &::after {
       transform: scale(1.5);
       opacity: 0;
     }
   }
   &:active {
-    transform: translateY(-1px);
+    transform: translateY(-0.1rem);
   }
 }

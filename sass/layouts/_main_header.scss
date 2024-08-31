@@ -8,7 +8,6 @@
   background-position: top;
   background-size: cover;
   height: 95vh;
-  width: 99%;
   clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
   overflow: hidden;
 
@@ -28,8 +27,8 @@
   }
   &--btn_wrapper {
     text-align: center;
-    margin-top: 60px;
-    animation: moveUp 1s ease-out .5s;
+    margin-top: 6rem;
+    animation: moveUp 1s ease-out 0.5s;
     animation-fill-mode: backwards;
   }
 }

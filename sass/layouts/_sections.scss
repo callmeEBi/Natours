@@ -1,0 +1,23 @@
+.section_two {
+  background-color: #f7f7f7;
+  height: calc(80rem + 22vh);
+  margin-top: -22vh;
+  padding-top: 27.5rem;
+  overflow: hidden;
+  .title {
+    text-align: center;
+    background: linear-gradient(
+      to right,
+      $color__green_light,
+      $color__green_dark
+    );
+    background-clip: text;
+    color: transparent;
+    transition: all 0.2s ease-out;
+
+    &:hover {
+      transform: scale(1.1) skew(15deg, 2deg);
+      text-shadow: 0 0 20px rgba($color__black, 0.2);
+    }
+  }
+}
