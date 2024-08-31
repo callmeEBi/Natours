@@ -1,25 +1,21 @@
+.section__title {
+  text-align: center;
+  background: linear-gradient(to right, $color-green-light, $color-green-dark);
+  background-clip: text;
+  color: transparent;
+  transition: all 0.2s ease-out;
+  &:hover {
+    transform: scale(1.1) skew(15deg, 2deg);
+    text-shadow: 0 0 20px rgba($color-black, 0.2);
+  }
+}
+
 .section_two {
   background-color: $color-gray-light;
   height: calc(80rem + 25vh);
   margin-top: -22vh;
   padding-top: 27.5rem;
   overflow: hidden;
-  .title {
-    text-align: center;
-    background: linear-gradient(
-      to right,
-      $color-green-light,
-      $color-green-dark
-    );
-    background-clip: text;
-    color: transparent;
-    transition: all 0.2s ease-out;
-
-    &:hover {
-      transform: scale(1.1) skew(15deg, 2deg);
-      text-shadow: 0 0 20px rgba($color-black, 0.2);
-    }
-  }
 }
 
 .section_three {
@@ -42,4 +38,13 @@
     align-items: center;
     gap: 50px;
   }
+}
+
+.section_four {
+  height: 103.8rem;
+  background-color: $color-gray-light;
+  border: 1px dashed red;
+  margin-top: -130px;
+  padding-top: 310px;
+  overflow: hidden;
 }

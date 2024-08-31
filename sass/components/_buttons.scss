@@ -12,6 +12,7 @@
     transition: all 0.3s ease-out;
     position: relative;
   }
+
   &::after {
     content: "";
     display: inline-block;
@@ -25,6 +26,7 @@
     border-radius: inherit;
     background-color: inherit;
   }
+
   &:hover {
     transform: translateY(-0.3rem);
     &::after {
@@ -32,6 +34,7 @@
       opacity: 0;
     }
   }
+
   &:active {
     transform: translateY(-0.1rem);
   }
@@ -50,6 +53,7 @@
     padding-left: 0.5rem;
     transition: all 0.2s ease-out;
   }
+
   &:hover {
     background: linear-gradient(
       to left bottom,
@@ -61,6 +65,7 @@
     transform: translateY(-0.3rem);
     box-shadow: 0 0 2rem rgba($color-black, 0.2);
   }
+
   &:active {
     transform: translateY(-0.1rem);
   }
