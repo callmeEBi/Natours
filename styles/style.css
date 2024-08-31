@@ -134,6 +134,12 @@ body {
   line-height: 2.6rem;
 }
 
+.front--title {
+  text-transform: uppercase;
+  font-family: lato-light;
+  font-size: 28px;
+}
+
 .feature_card {
   width: 24rem;
   height: 30rem;
@@ -159,6 +165,45 @@ body {
 }
 .feature_card:hover {
   transform: translateY(-1rem) scale(1.01);
+}
+
+.tour_card {
+  perspective: 100rem;
+  margin-top: 9rem;
+  width: 34rem;
+  height: 52.4rem;
+  position: relative;
+}
+.tour_card__front, .tour_card__back {
+  transition: all 0.8s ease-out;
+  width: 34rem;
+  height: 52.4rem;
+  background-color: red;
+  backface-visibility: hidden;
+  position: absolute;
+}
+.tour_card__back {
+  background-color: blue;
+  transform: rotateY(180deg);
+}
+
+.front--image {
+  height: 22.8rem;
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+  background: linear-gradient(to right bottom, #ffb206, #ff7f2b), url(../images/nat-5.jpg);
+  background-blend-mode: screen;
+  background-position: top;
+  background-size: cover;
+}
+.front--title {
+  color: #fff;
+  background: linear-gradient(to right bottom, #ffb206, #ff7f2b);
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  box-decoration-break: clone;
+  line-height: 37px;
+  opacity: 0.8;
 }
 
 .btn:link, .btn:visited {
@@ -338,9 +383,8 @@ body {
 }
 
 .section_four {
-  height: 103.8rem;
+  height: 135.6rem;
   background-color: #f7f7f7;
-  border: 1px dashed red;
   margin-top: -130px;
   padding-top: 310px;
   overflow: hidden;

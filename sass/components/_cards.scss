@@ -24,3 +24,64 @@
     transform: translateY(-1rem) scale(1.01);
   }
 }
+
+.tour_card {
+  perspective: 100rem;
+  margin-top: 9rem;
+  width: 34rem;
+  height: 52.4rem;
+  position: relative;
+  &__front,
+  &__back {
+    transition: all 0.8s ease-out;
+    width: 34rem;
+    height: 52.4rem;
+    background-color: red;
+    backface-visibility: hidden;
+    position: absolute;
+  }
+  &__back {
+    background-color: blue;
+    transform: rotateY(180deg);
+  }
+  // &:hover {
+  //   .tour_card__front {
+  //     transform: rotateY(-180deg);
+  //   }
+  //   .tour_card__back {
+  //     transform: rotateY(0deg);
+  //   }
+  // }
+}
+
+.front {
+  &--image {
+    height: 22.8rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
+    background: linear-gradient(
+        to right bottom,
+        rgba($color-orange-light, 1),
+        rgba($color-orange-dark, 1)
+      ),
+      url(../images/nat-5.jpg);
+    background-blend-mode: screen;
+    background-position: top;
+    background-size: cover;
+  }
+  &--title {
+    // display: inline-block;
+    color: $color-white;
+    background: linear-gradient(
+      to right bottom,
+      $color-orange-light,
+      $color-orange-dark
+    );
+    // padding: 1rem;
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    box-decoration-break: clone;
+    line-height: 37px;
+    opacity: 0.8;
+  }
+}
