@@ -1,6 +1,6 @@
 .section_two {
   background-color: #f7f7f7;
-  height: calc(80rem + 22vh);
+  height: calc(80rem + 25vh);
   margin-top: -22vh;
   padding-top: 27.5rem;
   overflow: hidden;
@@ -21,7 +21,25 @@
     }
   }
 }
+
 .section_three {
-  background: #255;
+  background: linear-gradient(
+      to right bottom,
+      rgba($color__green_light, 0.8),
+      rgba($color__green_dark, 0.8)
+    ),
+    url(../images/nat-4.jpg);
+  background-size: cover;
+  transform: skewY(-8deg);
   height: 700px;
+  margin-top: -90px;
+  .cards_wrapper {
+    transform: skewY(8deg);
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
 }
