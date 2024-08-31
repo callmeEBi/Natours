@@ -1,5 +1,5 @@
 .composition {
-  color: $color__gray_light;
+  color: $color-gray-dark;
   margin-top: 10rem;
   padding-left: 4rem;
   display: flex;
@@ -28,10 +28,10 @@
   }
   img {
     position: absolute;
-    box-shadow: 0 0 2rem rgba($color__black, 0.3);
+    box-shadow: 0 0 2rem rgba($color-black, 0.3);
     transition: all 0.2s ease-out;
     &:hover {
-      outline: 1.5rem solid $color__green_light;
+      outline: 1.5rem solid $color-green-light;
       outline-offset: 1.8rem;
       border-radius: 1rem;
       z-index: 3;

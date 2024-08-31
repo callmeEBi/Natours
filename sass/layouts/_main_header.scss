@@ -1,8 +1,8 @@
 .header {
   background: linear-gradient(
       to right bottom,
-      rgba($color__green_light, 0.8),
-      rgba($color__green_dark, 0.8)
+      rgba($color-green-light, 0.8),
+      rgba($color-green-dark, 0.8)
     ),
     url(../images/hero-small.jpg);
   background-position: top;
@@ -17,12 +17,12 @@
   }
   &--main_text {
     margin-top: 6rem;
-    color: $color__white;
+    color: $color-white;
     animation: moveRight 1s ease-out;
   }
   &--sub_text {
     margin-top: 1.7rem;
-    color: $color__white;
+    color: $color-white;
     animation: moveLeft 1s ease-out;
   }
   &--btn_wrapper {

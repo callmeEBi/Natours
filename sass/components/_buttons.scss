@@ -3,8 +3,8 @@
   &:visited {
     display: inline-block;
     text-decoration: none;
-    color: $color__gray_light;
-    background-color: $color__white;
+    color: $color-gray-dark;
+    background-color: $color-white;
     border-radius: 10rem;
     width: 25.3rem;
     height: 5.5rem;
@@ -41,11 +41,11 @@
   &:link,
   &:visited {
     display: inline-block;
-    background: linear-gradient($color__green_dark, $color__green_light);
+    background: linear-gradient($color-green-dark, $color-green-light);
     background-clip: text;
     color: transparent;
     text-decoration: none;
-    border-bottom: 0.1rem solid $color__green_dark;
+    border-bottom: 0.1rem solid $color-green-dark;
     padding-bottom: 0.1rem;
     padding-left: 0.5rem;
     transition: all 0.2s ease-out;
@@ -53,12 +53,12 @@
   &:hover {
     background: linear-gradient(
       to left bottom,
-      $color__green_dark,
-      $color__green_light
+      $color-green-dark,
+      $color-green-light
     );
-    color: $color__white;
+    color: $color-white;
     border: none;
     transform: translateY(-0.3rem);
-    box-shadow: 0 0 2rem rgba($color__black, 0.2);
+    box-shadow: 0 0 2rem rgba($color-black, 0.2);
   }
 }

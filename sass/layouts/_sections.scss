@@ -1,5 +1,5 @@
 .section_two {
-  background-color: #f7f7f7;
+  background-color: $color-gray-light;
   height: calc(80rem + 25vh);
   margin-top: -22vh;
   padding-top: 27.5rem;
@@ -8,8 +8,8 @@
     text-align: center;
     background: linear-gradient(
       to right,
-      $color__green_light,
-      $color__green_dark
+      $color-green-light,
+      $color-green-dark
     );
     background-clip: text;
     color: transparent;
@@ -17,7 +17,7 @@
 
     &:hover {
       transform: scale(1.1) skew(15deg, 2deg);
-      text-shadow: 0 0 20px rgba($color__black, 0.2);
+      text-shadow: 0 0 20px rgba($color-black, 0.2);
     }
   }
 }
@@ -25,8 +25,8 @@
 .section_three {
   background: linear-gradient(
       to right bottom,
-      rgba($color__green_light, 0.8),
-      rgba($color__green_dark, 0.8)
+      rgba($color-green-light, 0.8),
+      rgba($color-green-dark, 0.8)
     ),
     url(../images/nat-4.jpg);
   background-size: cover;
