@@ -6,7 +6,7 @@
   transition: all 0.2s ease-out;
   &:hover {
     transform: scale(1.1) skew(15deg, 2deg);
-    text-shadow: 0 0 20px rgba($color-black, 0.2);
+    text-shadow: 0 0 2rem rgba($color-black, 0.2);
   }
 }
 
@@ -27,8 +27,8 @@
     url(../images/nat-4.jpg);
   background-size: cover;
   transform: skewY(-8deg);
-  height: 700px;
-  margin-top: -90px;
+  height: 70rem;
+  margin-top: -9rem;
   .cards_wrapper {
     transform: skewY(8deg);
     width: inherit;
@@ -36,20 +36,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 5rem;
   }
 }
 
 .section_four {
   height: 135.6rem;
   background-color: $color-gray-light;
-  margin-top: -130px;
-  padding-top: 310px;
+  margin-top: -13rem;
+  padding-top: 31rem;
   overflow: hidden;
   .tour_cards_wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 6rem;
   }
 }
