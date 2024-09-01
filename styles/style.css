@@ -337,7 +337,7 @@ body {
 .btn--section_three_footer {
   color: #fff !important;
   background: linear-gradient(to right, #29b383, #77cd6d) !important;
-  width: 246px !important;
+  width: 24.6rem !important;
   text-align: center;
   text-transform: uppercase;
 }
@@ -472,7 +472,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 6rem;
-  margin-bottom: 106px;
+  margin-bottom: 10.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
