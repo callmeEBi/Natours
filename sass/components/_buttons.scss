@@ -4,7 +4,7 @@
     display: inline-block;
     text-decoration: none;
     color: $color-gray-dark;
-    background-color: $color-white;
+    background: $color-white;
     border-radius: 10rem;
     width: 25.3rem;
     height: 5.5rem;
@@ -24,7 +24,7 @@
     transition: all 0.3s ease-out;
     z-index: -1;
     border-radius: inherit;
-    background-color: inherit;
+    background: inherit;
   }
 
   &:hover {
@@ -74,5 +74,17 @@
 .btn--tour_card {
   margin-top: 10rem;
   width: 18rem !important;
+  text-transform: uppercase;
+}
+
+.btn--section_three_footer {
+  color: $color-white !important;
+  background: linear-gradient(
+    to right,
+    $color-green-dark,
+    $color-green-light
+  ) !important;
+  width: 246px !important;
+  text-align: center;
   text-transform: uppercase;
 }

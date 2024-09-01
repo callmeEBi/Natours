@@ -138,6 +138,10 @@ body {
   text-align: center;
 }
 
+.u-text-center {
+  text-align: center;
+}
+
 .feature_card {
   width: 24rem;
   height: 30rem;
@@ -270,7 +274,7 @@ body {
   display: inline-block;
   text-decoration: none;
   color: #777;
-  background-color: #fff;
+  background: #fff;
   border-radius: 10rem;
   width: 25.3rem;
   height: 5.5rem;
@@ -289,7 +293,7 @@ body {
   transition: all 0.3s ease-out;
   z-index: -1;
   border-radius: inherit;
-  background-color: inherit;
+  background: inherit;
 }
 .btn:hover {
   transform: translateY(-0.3rem);
@@ -327,6 +331,14 @@ body {
 .btn--tour_card {
   margin-top: 10rem;
   width: 18rem !important;
+  text-transform: uppercase;
+}
+
+.btn--section_three_footer {
+  color: #fff !important;
+  background: linear-gradient(to right, #29b383, #77cd6d) !important;
+  width: 246px !important;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -460,6 +472,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 6rem;
+  margin-bottom: 106px;
 }
 
 /*# sourceMappingURL=style.css.map */
