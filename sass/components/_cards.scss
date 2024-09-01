@@ -150,7 +150,7 @@
       padding: 1rem 1.5rem;
       box-decoration-break: clone;
       -webkit-box-decoration-break: clone;
-      line-height: 42px;
+      line-height: 4.2rem;
     }
 
     &--2 span {
@@ -187,13 +187,13 @@
 .back {
   &--title {
     text-transform: uppercase;
-    font-size: 14px;
-    line-height: 23.8px;
-    margin-top: 135px;
+    font-size: 1.4rem;
+    line-height: 23.8rem;
+    margin-top: 13.5rem;
   }
   &--price {
-    font-size: 60px;
+    font-size: 6rem;
     font-family: lato-Thin;
-    margin-top: 12px;
+    margin-top: 1.2rem;
   }
 }

@@ -234,7 +234,7 @@ body {
   padding: 1rem 1.5rem;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
-  line-height: 42px;
+  line-height: 4.2rem;
 }
 .front--title--2 span {
   background: linear-gradient(to right bottom, rgba(119, 205, 109, 0.85), rgba(41, 179, 131, 0.85));
@@ -256,14 +256,14 @@ body {
 
 .back--title {
   text-transform: uppercase;
-  font-size: 14px;
-  line-height: 23.8px;
-  margin-top: 135px;
+  font-size: 1.4rem;
+  line-height: 23.8rem;
+  margin-top: 13.5rem;
 }
 .back--price {
-  font-size: 60px;
+  font-size: 6rem;
   font-family: lato-Thin;
-  margin-top: 12px;
+  margin-top: 1.2rem;
 }
 
 .btn:link, .btn:visited {
@@ -325,8 +325,8 @@ body {
 }
 
 .btn--tour_card {
-  margin-top: 100px;
-  width: 180px !important;
+  margin-top: 10rem;
+  width: 18rem !important;
   text-transform: uppercase;
 }
 
