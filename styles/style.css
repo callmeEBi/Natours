@@ -184,8 +184,18 @@ body {
   position: absolute;
 }
 .tour_card__back {
-  background-color: blue;
   transform: rotateY(180deg);
+  text-align: center;
+  color: #fff;
+}
+.tour_card__back--1 {
+  background: linear-gradient(to right bottom, #ffb206, #ff7f2b);
+}
+.tour_card__back--2 {
+  background: linear-gradient(to right bottom, #77cd6d, #29b383);
+}
+.tour_card__back--3 {
+  background: linear-gradient(to right bottom, #2b95ff, #5349fb);
 }
 .tour_card:hover .tour_card__front {
   transform: rotateY(-180deg);
@@ -244,6 +254,18 @@ body {
   margin-bottom: 0.7rem;
 }
 
+.back--title {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 23.8px;
+  margin-top: 135px;
+}
+.back--price {
+  font-size: 60px;
+  font-family: lato-Thin;
+  margin-top: 12px;
+}
+
 .btn:link, .btn:visited {
   display: inline-block;
   text-decoration: none;
@@ -300,6 +322,12 @@ body {
 }
 .btn--learn:active {
   transform: translateY(-0.1rem);
+}
+
+.btn--tour_card {
+  margin-top: 100px;
+  width: 180px !important;
+  text-transform: uppercase;
 }
 
 .composition {
