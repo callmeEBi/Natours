@@ -31,9 +31,10 @@
   width: 34rem;
   height: 52rem;
   position: relative;
-  border-radius: 1rem;
   &__front,
   &__back {
+    border-radius: 1.5rem;
+    overflow: hidden;
     box-shadow: 0 0 2rem rgba($color-black, 0.2);
     transition: all 0.8s ease-out;
     width: 34rem;
@@ -68,7 +69,23 @@
       url(../images/nat-5.jpg);
     background-blend-mode: screen;
     background-position: top;
-    background-size: cover;
+    background-size: cover !important;
+    &--2 {
+      background: linear-gradient(
+          to right bottom,
+          rgba($color-green-light, 1),
+          rgba($color-green-dark, 1)
+        ),
+        url(../images/nat-6.jpg);
+    }
+    &--3 {
+      background: linear-gradient(
+          to right bottom,
+          rgba($color-blue-light, 1),
+          rgba($color-blue-dark, 1)
+        ),
+        url(../images/nat-7.jpg);
+    }
   }
   &--title {
     font-size: 2.8rem;
@@ -81,16 +98,34 @@
     text-align: right;
     width: 75%;
   }
-  &--title span {
-    background: linear-gradient(
-      to right bottom,
-      rgba($color-orange-light, 0.85),
-      rgba($color-orange-dark, 0.85)
-    );
-    padding: 1rem 1.5rem;
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
-    line-height: 42px;
+  &--title {
+    &--1 span,
+    &--2 span,
+    &--3 span {
+      background: linear-gradient(
+        to right bottom,
+        rgba($color-orange-light, 0.85),
+        rgba($color-orange-dark, 0.85)
+      );
+      padding: 1rem 1.5rem;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone;
+      line-height: 42px;
+    }
+    &--2 span {
+      background: linear-gradient(
+        to right bottom,
+        rgba($color-green-light, 0.85),
+        rgba($color-green-dark, 0.85)
+      );
+    }
+    &--3 span {
+      background: linear-gradient(
+        to right bottom,
+        rgba($color-blue-light, 0.85),
+        rgba($color-blue-dark, 0.85)
+      );
+    }
   }
   &--description {
     list-style-type: none;

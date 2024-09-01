@@ -171,9 +171,10 @@ body {
   width: 34rem;
   height: 52rem;
   position: relative;
-  border-radius: 1rem;
 }
 .tour_card__front, .tour_card__back {
+  border-radius: 1.5rem;
+  overflow: hidden;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
   transition: all 0.8s ease-out;
   width: 34rem;
@@ -199,7 +200,13 @@ body {
   background: linear-gradient(to right bottom, #ffb206, #ff7f2b), url(../images/nat-5.jpg);
   background-blend-mode: screen;
   background-position: top;
-  background-size: cover;
+  background-size: cover !important;
+}
+.front--image--2 {
+  background: linear-gradient(to right bottom, #77cd6d, #29b383), url(../images/nat-6.jpg);
+}
+.front--image--3 {
+  background: linear-gradient(to right bottom, #2b95ff, #5349fb), url(../images/nat-7.jpg);
 }
 .front--title {
   font-size: 2.8rem;
@@ -212,12 +219,18 @@ body {
   text-align: right;
   width: 75%;
 }
-.front--title span {
+.front--title--1 span, .front--title--2 span, .front--title--3 span {
   background: linear-gradient(to right bottom, rgba(255, 178, 6, 0.85), rgba(255, 127, 43, 0.85));
   padding: 1rem 1.5rem;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   line-height: 42px;
+}
+.front--title--2 span {
+  background: linear-gradient(to right bottom, rgba(119, 205, 109, 0.85), rgba(41, 179, 131, 0.85));
+}
+.front--title--3 span {
+  background: linear-gradient(to right bottom, rgba(43, 149, 255, 0.85), rgba(83, 73, 251, 0.85));
 }
 .front--description {
   list-style-type: none;
