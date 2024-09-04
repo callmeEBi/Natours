@@ -143,7 +143,7 @@ body {
 }
 
 .u-margin-b-8 {
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 .bg-video {
@@ -227,63 +227,63 @@ body {
   width: 24.6rem !important;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 150px;
+  margin-bottom: 15rem;
 }
 
 .btn--section-five-footer {
-  margin-top: 106px;
+  margin-top: 10.6rem;
 }
 
 .comment-card {
   text-align: left;
   color: #777;
   display: inline-block;
-  width: 913px;
-  height: 271px;
+  width: 91.3rem;
+  height: 27.1rem;
   transform: skew(-12deg);
-  padding: 52px;
-  padding-left: 112px;
-  margin-top: 80px;
+  padding: 5.2rem;
+  padding-left: 11.2rem;
+  margin-top: 8rem;
   background-color: rgba(255, 255, 255, 0.65);
 }
 .comment-card > * {
   transform: skew(12deg);
 }
 .comment-card__shape {
-  height: 153px;
-  width: 153px;
+  height: 15.3rem;
+  width: 15.3rem;
   clip-path: circle(50% at 50% 50%);
   float: left;
   shape-outside: circle(50% at 50% 50%);
-  transform: skew(12deg) translateX(-34px);
+  transform: skew(12deg) translateX(-3.4rem);
   text-align: center;
 }
 .comment-card__image {
   height: 100%;
-  transform: translateX(-35px) scale(1.5);
+  transform: translateX(-3.5rem) scale(1.5);
   transition: all 0.5s;
 }
 .comment-card__caption {
   display: inline-block;
   color: #fff;
-  line-height: 24px;
+  line-height: 2.4rem;
   text-transform: uppercase;
   transition: all 0.5s;
 }
 .comment-card__title {
   text-transform: uppercase;
-  margin-bottom: 14px;
-  transform: skew(12deg) translateX(-12px);
+  margin-bottom: 1.4rem;
+  transform: skew(12deg) translateX(-1.2rem);
 }
 .comment-card__text {
-  line-height: 27px;
+  line-height: 2.7rem;
 }
 .comment-card:hover .comment-card__image {
-  filter: blur(2px) brightness(80%);
-  transform: translateX(-35px) scale(1);
+  filter: blur(0.2rem) brightness(80%);
+  transform: translateX(-3.5rem) scale(1);
 }
 .comment-card:hover .comment-card__caption {
-  transform: translateY(-100px);
+  transform: translateY(-10rem);
 }
 
 .feature_card {
@@ -549,7 +549,7 @@ body {
 }
 
 .section_five {
-  padding: 153px 0;
+  padding: 15.3rem 0;
   text-align: center;
   position: relative;
 }
