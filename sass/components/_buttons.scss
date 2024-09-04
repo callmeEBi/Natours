@@ -79,11 +79,7 @@
 
 .btn--section_three_footer {
   color: $color-white !important;
-  background: linear-gradient(
-    to right,
-    $color-green-dark,
-    $color-green-light
-  ) !important;
+  background: $color-green-default !important;
   width: 24.6rem !important;
   text-align: center;
   text-transform: uppercase;
