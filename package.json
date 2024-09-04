@@ -1,0 +1,23 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass-w": "sass sass/main.scss styles/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmeEBi/Natours.git"
+  },
+  "keywords": [],
+  "author": "The EBi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callmeEBi/Natours/issues"
+  },
+  "homepage": "https://github.com/callmeEBi/Natours#readme",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}
