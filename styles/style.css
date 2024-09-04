@@ -146,6 +146,19 @@ body {
   margin-bottom: 8px;
 }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.15;
+  object-fit: cover;
+}
+
 .btn:link, .btn:visited {
   display: inline-block;
   text-decoration: none;
@@ -188,15 +201,13 @@ body {
   background-clip: text;
   color: transparent;
   text-decoration: none;
-  border-bottom: 0.1rem solid #29b383;
-  padding-bottom: 0.1rem;
-  padding-left: 0.5rem;
+  border-bottom: 0.1rem solid #55c57a;
+  padding: 0.5rem;
   transition: all 0.2s ease-out;
 }
 .btn--learn:hover {
-  background: linear-gradient(to left bottom, #29b383, #77cd6d);
+  background: #55c57a;
   color: #fff;
-  border: none;
   transform: translateY(-0.3rem);
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
 }
@@ -219,10 +230,13 @@ body {
   margin-bottom: 150px;
 }
 
+.btn--section-five-footer {
+  margin-top: 106px;
+}
+
 .comment-card {
   text-align: left;
   color: #777;
-  border: 1px dashed red;
   display: inline-block;
   width: 913px;
   height: 271px;
@@ -230,6 +244,7 @@ body {
   padding: 52px;
   padding-left: 112px;
   margin-top: 80px;
+  background-color: rgba(255, 255, 255, 0.65);
 }
 .comment-card > * {
   transform: skew(12deg);
@@ -534,10 +549,9 @@ body {
 }
 
 .section_five {
-  border: 1px dashed red;
-  height: 1196px;
-  padding-top: 153px;
+  padding: 153px 0;
   text-align: center;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

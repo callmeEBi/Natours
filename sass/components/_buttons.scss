@@ -48,20 +48,14 @@
     background-clip: text;
     color: transparent;
     text-decoration: none;
-    border-bottom: 0.1rem solid $color-green-dark;
-    padding-bottom: 0.1rem;
-    padding-left: 0.5rem;
+    border-bottom: 0.1rem solid $color-green-default;
+    padding: 0.5rem;
     transition: all 0.2s ease-out;
   }
 
   &:hover {
-    background: linear-gradient(
-      to left bottom,
-      $color-green-dark,
-      $color-green-light
-    );
+    background: $color-green-default;
     color: $color-white;
-    border: none;
     transform: translateY(-0.3rem);
     box-shadow: 0 0 2rem rgba($color-black, 0.2);
   }
@@ -84,4 +78,8 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 150px;
+}
+
+.btn--section-five-footer {
+  margin-top: 106px;
 }
