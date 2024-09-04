@@ -1,0 +1,58 @@
+.comment-card {
+  text-align: left;
+  color: $color-gray-dark;
+  border: 1px dashed red;
+  display: inline-block;
+  width: 913px;
+  height: 271px;
+  transform: skew(-12deg);
+  padding: 52px;
+  padding-left: 112px;
+  margin-top: 80px;
+  & > * {
+    transform: skew(12deg);
+  }
+
+  &__shape {
+    height: 153px;
+    width: 153px;
+    clip-path: circle(50% at 50% 50%);
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    transform: skew(12deg) translateX(-34px);
+    text-align: center;
+  }
+
+  &__image {
+    height: 100%;
+    transform: translateX(-35px) scale(1.5);
+    transition: all 0.5s;
+  }
+
+  &__caption {
+    display: inline-block;
+    color: $color-white;
+    line-height: 24px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    transform: skew(12deg) translateX(-12px);
+  }
+
+  &__text {
+    line-height: 27px;
+  }
+
+  &:hover &__image {
+    filter: blur(2px) brightness(80%);
+    transform: translateX(-35px) scale(1);
+  }
+
+  &:hover &__caption {
+    transform: translateY(-100px);
+  }
+}

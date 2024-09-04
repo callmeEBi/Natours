@@ -10,12 +10,15 @@
   }
 }
 
+[class^="section_"] {
+  overflow: hidden;
+}
+
 .section_two {
   background-color: $color-gray-light;
   height: calc(80rem + 25vh);
   margin-top: -22vh;
   padding-top: 27.5rem;
-  overflow: hidden;
 }
 
 .section_three {
@@ -41,11 +44,10 @@
 }
 
 .section_four {
-  height: 135.6rem;
+  // height: 135.6rem;
   background-color: $color-gray-light;
   margin-top: -13rem;
   padding-top: 31rem;
-  overflow: hidden;
   .tour_cards_wrapper {
     display: flex;
     justify-content: center;
@@ -53,4 +55,11 @@
     gap: 6rem;
     margin-bottom: 10.6rem;
   }
+}
+
+.section_five {
+  border: 1px dashed red;
+  height: 1196px;
+  padding-top: 153px;
+  text-align: center;
 }

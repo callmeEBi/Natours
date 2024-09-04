@@ -142,6 +142,135 @@ body {
   text-align: center;
 }
 
+.u-margin-b-8 {
+  margin-bottom: 8px;
+}
+
+.btn:link, .btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #777;
+  background: #fff;
+  border-radius: 10rem;
+  width: 25.3rem;
+  height: 5.5rem;
+  line-height: 5.5rem;
+  transition: all 0.3s ease-out;
+  position: relative;
+}
+.btn::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s ease-out;
+  z-index: -1;
+  border-radius: inherit;
+  background: inherit;
+}
+.btn:hover {
+  transform: translateY(-0.3rem);
+}
+.btn:hover::after {
+  transform: scale(1.5);
+  opacity: 0;
+}
+.btn:active {
+  transform: translateY(-0.1rem);
+}
+
+.btn--learn:link, .btn--learn:visited {
+  display: inline-block;
+  background: linear-gradient(#29b383, #77cd6d);
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  border-bottom: 0.1rem solid #29b383;
+  padding-bottom: 0.1rem;
+  padding-left: 0.5rem;
+  transition: all 0.2s ease-out;
+}
+.btn--learn:hover {
+  background: linear-gradient(to left bottom, #29b383, #77cd6d);
+  color: #fff;
+  border: none;
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+.btn--learn:active {
+  transform: translateY(-0.1rem);
+}
+
+.btn--tour_card {
+  margin-top: 10rem;
+  width: 18rem !important;
+  text-transform: uppercase;
+}
+
+.btn--section_four_footer {
+  color: #fff !important;
+  background: #55c57a !important;
+  width: 24.6rem !important;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 150px;
+}
+
+.comment-card {
+  text-align: left;
+  color: #777;
+  border: 1px dashed red;
+  display: inline-block;
+  width: 913px;
+  height: 271px;
+  transform: skew(-12deg);
+  padding: 52px;
+  padding-left: 112px;
+  margin-top: 80px;
+}
+.comment-card > * {
+  transform: skew(12deg);
+}
+.comment-card__shape {
+  height: 153px;
+  width: 153px;
+  clip-path: circle(50% at 50% 50%);
+  float: left;
+  shape-outside: circle(50% at 50% 50%);
+  transform: skew(12deg) translateX(-34px);
+  text-align: center;
+}
+.comment-card__image {
+  height: 100%;
+  transform: translateX(-35px) scale(1.5);
+  transition: all 0.5s;
+}
+.comment-card__caption {
+  display: inline-block;
+  color: #fff;
+  line-height: 24px;
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+.comment-card__title {
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  transform: skew(12deg) translateX(-12px);
+}
+.comment-card__text {
+  line-height: 27px;
+}
+.comment-card:hover .comment-card__image {
+  filter: blur(2px) brightness(80%);
+  transform: translateX(-35px) scale(1);
+}
+.comment-card:hover .comment-card__caption {
+  transform: translateY(-100px);
+}
+
 .feature_card {
   width: 24rem;
   height: 30rem;
@@ -270,78 +399,6 @@ body {
   margin-top: 1.2rem;
 }
 
-.btn:link, .btn:visited {
-  display: inline-block;
-  text-decoration: none;
-  color: #777;
-  background: #fff;
-  border-radius: 10rem;
-  width: 25.3rem;
-  height: 5.5rem;
-  line-height: 5.5rem;
-  transition: all 0.3s ease-out;
-  position: relative;
-}
-.btn::after {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  transition: all 0.3s ease-out;
-  z-index: -1;
-  border-radius: inherit;
-  background: inherit;
-}
-.btn:hover {
-  transform: translateY(-0.3rem);
-}
-.btn:hover::after {
-  transform: scale(1.5);
-  opacity: 0;
-}
-.btn:active {
-  transform: translateY(-0.1rem);
-}
-
-.btn--learn:link, .btn--learn:visited {
-  display: inline-block;
-  background: linear-gradient(#29b383, #77cd6d);
-  background-clip: text;
-  color: transparent;
-  text-decoration: none;
-  border-bottom: 0.1rem solid #29b383;
-  padding-bottom: 0.1rem;
-  padding-left: 0.5rem;
-  transition: all 0.2s ease-out;
-}
-.btn--learn:hover {
-  background: linear-gradient(to left bottom, #29b383, #77cd6d);
-  color: #fff;
-  border: none;
-  transform: translateY(-0.3rem);
-  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
-}
-.btn--learn:active {
-  transform: translateY(-0.1rem);
-}
-
-.btn--tour_card {
-  margin-top: 10rem;
-  width: 18rem !important;
-  text-transform: uppercase;
-}
-
-.btn--section_three_footer {
-  color: #fff !important;
-  background: #55c57a !important;
-  width: 24.6rem !important;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .composition {
   color: #777;
   margin-top: 10rem;
@@ -435,12 +492,15 @@ body {
   text-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
 }
 
+[class^=section_] {
+  overflow: hidden;
+}
+
 .section_two {
   background-color: #f7f7f7;
   height: calc(80rem + 25vh);
   margin-top: -22vh;
   padding-top: 27.5rem;
-  overflow: hidden;
 }
 
 .section_three {
@@ -461,11 +521,9 @@ body {
 }
 
 .section_four {
-  height: 135.6rem;
   background-color: #f7f7f7;
   margin-top: -13rem;
   padding-top: 31rem;
-  overflow: hidden;
 }
 .section_four .tour_cards_wrapper {
   display: flex;
@@ -473,6 +531,13 @@ body {
   align-items: center;
   gap: 6rem;
   margin-bottom: 10.6rem;
+}
+
+.section_five {
+  border: 1px dashed red;
+  height: 1196px;
+  padding-top: 153px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
