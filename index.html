@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Natours | Exciting tours for adventurous people</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/icon-font.css" />
   </head>
@@ -108,7 +109,7 @@
         </div>
       </div>
     </section>
-    <section class="section_four">
+    <section class="section_four" id="section_four">
       <div class="section__title">most popular tours</div>
       <div class="tour_cards_wrapper">
         <div class="tour_card">
@@ -128,7 +129,7 @@
           <div class="tour_card__back tour_card__back--1">
             <div class="back--title back--title--1">Only</div>
             <div class="back--price back--price--1">$297</div>
-            <a href="#" class="btn btn--tour_card">Book Now!</a>
+            <a href="#modal" class="btn btn--tour_card">Book Now!</a>
           </div>
         </div>
         <div class="tour_card">
@@ -148,7 +149,7 @@
           <div class="tour_card__back tour_card__back--2">
             <div class="back--title back--title--2">Only</div>
             <div class="back--price back--price--2">$497</div>
-            <a href="#" class="btn btn--tour_card">Book Now!</a>
+            <a href="#modal" class="btn btn--tour_card">Book Now!</a>
           </div>
         </div>
         <div class="tour_card">
@@ -168,7 +169,7 @@
           <div class="tour_card__back tour_card__back--3">
             <div class="back--title back--title--3">Only</div>
             <div class="back--price back--price--3">$897</div>
-            <a href="#" class="btn btn--tour_card">Book Now!</a>
+            <a href="#modal" class="btn btn--tour_card">Book Now!</a>
           </div>
         </div>
       </div>
@@ -315,5 +316,38 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <a href="#setion_four" class="modal__close">&times;</a>
+        <div class="modal__images">
+          <div class="modal__image modal__image--1"></div>
+          <div class="modal__image modal__image--2"></div>
+        </div>
+        <div class="modal__text">
+          <div class="section__title modal__title">start booking now</div>
+          <h4 class="modal__subtitle">
+            Important &ndash; Please read these terms before booking
+          </h4>
+          <div class="modal__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+            Vitae semper quis lectus nulla at volutpat diam ut venenatis.
+            Malesuada pellentesque elit eget gravida cum sociis natoque
+            penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
+            laoreet. Gravida neque convallis a cras semper. Molestie at
+            elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet
+            nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet
+            sit. Amet massa vitae tortor condimentum lacinia quis vel eros
+            donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
+            porta.
+          </div>
+          <a href="#" class="btn btn--modal">book now</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
