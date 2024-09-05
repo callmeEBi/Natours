@@ -1,4 +1,5 @@
 .btn {
+  &,
   &:link,
   &:visited {
     display: inline-block;
@@ -82,4 +83,20 @@
 
 .btn--section-five-footer {
   margin-top: 10.6rem;
+}
+
+.btn--form-submit {
+  border: none;
+  cursor: pointer;
+  color: $color-white;
+  background: $color-green-default;
+  width: 183px;
+  height: 45px;
+  text-transform: uppercase;
+  margin-left: 62px;
+  margin-top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
 }
