@@ -44,7 +44,6 @@
 }
 
 .section_four {
-  // height: 135.6rem;
   background-color: $color-gray-light;
   margin-top: -13rem;
   padding-top: 31rem;
@@ -60,5 +59,16 @@
 .section_five {
   padding: 15.3rem 0;
   text-align: center;
+  position: relative;
+}
+
+.section_six {
+  background: linear-gradient(
+    to right bottom,
+    $color-green-light,
+    $color-green-dark
+  );
+  width: 1291px;
+  height: 831px;
   position: relative;
 }

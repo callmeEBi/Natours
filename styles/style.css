@@ -313,6 +313,59 @@ body {
   transform: translateY(-1rem) scale(1.01);
 }
 
+.form {
+  width: 1140px;
+  height: 531px;
+  background: linear-gradient(105deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 50%, transparent 50%), url(../images/nat-10.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #777;
+}
+.form__form-tag {
+  width: 50%;
+  padding-top: 74px;
+  padding-left: 61px;
+}
+.form__title {
+  margin-bottom: 60px !important;
+  text-align: left !important;
+}
+.form__input {
+  width: 402px;
+  height: 51px;
+  border: none;
+  margin-top: 26px;
+  padding-left: 20px;
+  display: block;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s;
+  border-radius: 3px;
+}
+.form__input, .form__input::placeholder {
+  color: #777;
+}
+.form__input:focus {
+  outline: none;
+  border-bottom: 3px solid #55c57a;
+}
+.form__input:focus:invalid {
+  border-bottom: 3px solid #ff7f2b;
+}
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-30px);
+}
+.form__label {
+  display: inline-block;
+  padding-left: 18px;
+  margin-top: 5px;
+  transition: all 0.5s;
+}
+
 .tour_card {
   perspective: 100rem;
   margin-top: 9rem;
@@ -551,6 +604,13 @@ body {
 .section_five {
   padding: 15.3rem 0;
   text-align: center;
+  position: relative;
+}
+
+.section_six {
+  background: linear-gradient(to right bottom, #77cd6d, #29b383);
+  width: 1291px;
+  height: 831px;
   position: relative;
 }
 

@@ -1,0 +1,67 @@
+.form {
+  width: 1140px;
+  height: 531px;
+  background: linear-gradient(
+      105deg,
+      rgba($color-white, 0.8) 0%,
+      rgba($color-white, 0.8) 50%,
+      transparent 50%
+    ),
+    url(../images/nat-10.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $color-gray-dark;
+
+  &__form-tag {
+    width: 50%;
+    padding-top: 74px;
+    padding-left: 61px;
+  }
+
+  &__title {
+    margin-bottom: 60px !important;
+    text-align: left !important;
+  }
+
+  &__input {
+    width: 402px;
+    height: 51px;
+    border: none;
+    margin-top: 26px;
+    padding-left: 20px;
+    display: block;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s;
+    border-radius: 3px;
+
+    &,
+    &::placeholder {
+      color: $color-gray-dark;
+    }
+
+    &:focus {
+      outline: none;
+      border-bottom: 3px solid $color-green-default;
+    }
+
+    &:focus:invalid {
+      border-bottom: 3px solid $color-orange-dark;
+    }
+
+    &:placeholder-shown + .form__label {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-30px);
+    }
+  }
+
+  &__label {
+    display: inline-block;
+    padding-left: 18px;
+    margin-top: 5px;
+    transition: all 0.5s;
+  }
+}
