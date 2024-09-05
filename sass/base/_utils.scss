@@ -2,10 +2,15 @@
   text-align: center;
 }
 
-.u-margin-b-8{
-  margin-bottom: .8rem;
+.u-margin-b-8 {
+  margin-bottom: 0.8rem;
 }
 
-.u-margin-l-68{
+.u-margin-l-68 {
   margin-left: 64px;
+}
+
+.u-flex {
+  display: flex;
+  justify-content: space-between;
 }
