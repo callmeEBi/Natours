@@ -124,43 +124,62 @@ phone             : 37.5em  (600px)
     margin-top: 24px;
   }
 
-  // ! = = = = = = = = = = = = = = = = = = = testing phase = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-
-  // .section_five{
-
-  // }
-  // .bg-video{
-
-  // }
-  // .section__title{
-
-  // }
-  // .u-margin-b-8{
-
-  // }
   .comment-card {
     width: 419px;
     height: 315px;
   }
-  // .comment-card__shape{
+  // ! = = = = = = = = = = = = = = = = = = = testing phase = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+  .form {
+    background: linear-gradient(
+        rgba($color-white, 0.9),
+        rgba($color-white, 0.9)
+      ),
+      url(../images/nat-10.jpg);
+    width: 352px;
+    height: 500px;
+    &__title {
+      width: 271px;
+    }
+    &__input {
+      width: 256px;
+      height: 42px;
+    }
+    &__radio-label {
+      display: block;
+      width: max-content;
 
-  // }
-  // .comment-card__image{
+      &:last-child{
+        margin-top: 9px;
+      }
+    }
+    &__radio-button {
+      margin: unset;
+    }
+  }
+  /*
+  .form{
 
-  // }
-  // .comment-card__caption{
+}
+.section__title{
 
-  // }
-  // .comment-card__title{
+}
+&__group{
 
-  // }
-  // .comment-card__text{
+}
+&__label{
 
-  // }
-  // .btn--learn{
+}
+&__radio-input{
 
-  // }
-  // .btn--section-five-footer{
+}
+.u-margin-l-68{
 
-  // }
+}
+.btn{
+
+}
+.btn--form-submit{
+
+}
+  */
 }

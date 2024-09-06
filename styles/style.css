@@ -1022,6 +1022,54 @@ phone             : 37.5em  (600px)
     width: 419px;
     height: 315px;
   }
+  .form {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/nat-10.jpg);
+    width: 352px;
+    height: 500px;
+  }
+  .form__title {
+    width: 271px;
+  }
+  .form__input {
+    width: 256px;
+    height: 42px;
+  }
+  .form__radio-label {
+    display: block;
+    width: max-content;
+  }
+  .form__radio-label:last-child {
+    margin-top: 9px;
+  }
+  .form__radio-button {
+    margin: unset;
+  }
+  /*
+    .form{
+
+  }
+  .section__title{
+
+  }
+  &__group{
+
+  }
+  &__label{
+
+  }
+  &__radio-input{
+
+  }
+  .u-margin-l-68{
+
+  }
+  .btn{
+
+  }
+  .btn--form-submit{
+
+  }
+    */
 }
 
 /*# sourceMappingURL=style.css.map */
