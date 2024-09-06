@@ -278,7 +278,8 @@ body {
   padding: 5.2rem;
   padding-left: 11.2rem;
   margin-top: 8rem;
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 3rem 2rem rgba(0, 0, 0, 0.15);
 }
 .comment-card > * {
   transform: skew(12deg);
@@ -1016,6 +1017,10 @@ phone             : 37.5em  (600px)
   }
   .btn--tour_card {
     margin-top: 24px;
+  }
+  .comment-card {
+    width: 419px;
+    height: 315px;
   }
 }
 
