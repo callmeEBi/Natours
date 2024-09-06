@@ -1,6 +1,6 @@
 .form {
-  width: 1140px;
-  height: 531px;
+  width: 114rem;
+  height: 53.1rem;
   background: linear-gradient(
       105deg,
       rgba($color-white, 0.9) 0%,
@@ -17,25 +17,25 @@
 
   &__form-tag {
     width: 50%;
-    padding-top: 74px;
-    padding-left: 61px;
+    padding-top: 7.4rem;
+    padding-left: 6.1rem;
   }
 
   &__title {
-    margin-bottom: 60px !important;
+    margin-bottom: 6rem !important;
     text-align: left !important;
   }
 
   &__input {
-    width: 402px;
-    height: 51px;
+    width: 40.2rem;
+    height: 5.1rem;
     border: none;
-    margin-top: 26px;
-    padding-left: 20px;
+    margin-top: 2.6rem;
+    padding-left: 2rem;
     display: block;
-    border-bottom: 3px solid transparent;
+    border-bottom: 0.3rem solid transparent;
     transition: all 0.3s;
-    border-radius: 3px;
+    border-radius: 0.3rem;
 
     &,
     &::placeholder {
@@ -44,24 +44,24 @@
 
     &:focus {
       outline: none;
-      border-bottom: 3px solid $color-green-default;
+      border-bottom: 0.3rem solid $color-green-default;
     }
 
     &:focus:invalid {
-      border-bottom: 3px solid $color-orange-dark;
+      border-bottom: 0.3rem solid $color-orange-dark;
     }
 
     &:placeholder-shown + .form__label {
       opacity: 0;
       visibility: hidden;
-      transform: translateY(-30px);
+      transform: translateY(-3rem);
     }
   }
 
   &__label {
     display: inline-block;
-    padding-left: 18px;
-    margin-top: 5px;
+    padding-left: 1.8rem;
+    margin-top: 0.5rem;
     transition: all 0.5s;
   }
 
@@ -75,20 +75,20 @@
 
   &__radio-button {
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    border: 5px solid $color-green-default;
+    width: 3rem;
+    height: 3rem;
+    border: 0.5rem solid $color-green-default;
     border-radius: 50%;
-    transform: translateY(10px);
-    margin-right: 15px;
+    transform: translateY(1rem);
+    margin-right: 1.5rem;
     position: relative;
     &::after {
       opacity: 0;
       visibility: none;
       transition: all 0.3s;
       content: "";
-      width: 15px;
-      height: 15px;
+      width: 1.5rem;
+      height: 1.5rem;
       border-radius: 50%;
       background-color: $color-green-default;
       position: absolute;

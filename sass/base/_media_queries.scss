@@ -1,0 +1,126 @@
+/*
+
+basically set for 4 devices (breakpoints) in these sizes:
+
+large screens     : 112.5em (1800px)
+tablet landscape  : 75em    (1200px) 
+tablet portrait   : 56.25em (900px)
+phone             : 37.5em  (600px)
+
+*/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 54%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .section_two {
+    height: calc(106rem + 25vh);
+  }
+
+  .composition {
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 175px;
+    }
+
+    &__right {
+      margin-top: 40px;
+      margin-left: -500px;
+    }
+
+    .nat-1 {
+      left: 3.2rem;
+      top: 2.5rem;
+    }
+
+    .nat-2 {
+      top: 0.6rem;
+      left: 19rem;
+      z-index: 3;
+    }
+
+    .nat-3 {
+      top: 2.4rem;
+      left: 32.4rem;
+    }
+  }
+
+  .section_three {
+    height: 146rem;
+  }
+
+  .cards_wrapper {
+    flex-direction: column;
+  }
+
+  .feature_card {
+    width: 44rem;
+    height: 25.5rem;
+  }
+
+  .tour_cards_wrapper {
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .tour_card {
+    width: unset;
+    height: unset;
+    &:not(:first-child) {
+      margin-top: 0;
+    }
+
+    &__front,
+    &__back {
+      position: unset;
+      width: 355px;
+    }
+
+    &__front {
+      height: 477px;
+    }
+
+    &__back {
+      transform: rotateY(0deg);
+      height: 230px;
+      margin-top: -104px;
+      border-radius: 0 0 10px 10px;
+      clip-path: polygon(0 33%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    &:hover {
+      .tour_card__front {
+        transform: unset;
+      }
+
+      .tour_card__back {
+        transform: unset;
+      }
+    }
+  }
+  .back {
+    &--title {
+      margin-top: 83px;
+    }
+    &--price {
+      font-size: 4rem;
+      margin-top: 0;
+    }
+  }
+  .btn--tour_card {
+    margin-top: 24px;
+  }
+}

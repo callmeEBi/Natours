@@ -1,22 +1,22 @@
 .footer {
   color: $color-white;
   background-color: $color-gray-dark-2;
-  padding: 0 70px 100px;
-  margin-bottom: 10px;
+  padding: 0 7rem 10rem;
+  margin-bottom: 1rem;
   &__logo-box {
     text-align: center;
-    padding-top: 108px;
-    margin-bottom: 85px;
+    padding-top: 10.8rem;
+    margin-bottom: 8.5rem;
   }
 
   &__logo {
-    width: 150px;
+    width: 15rem;
   }
 
   &__content-list {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 1.5rem;
   }
 
   &__link {
@@ -32,19 +32,19 @@
     &:hover {
       transform: scale(1.1) rotate(8deg);
       color: $color-green-default;
-      box-shadow: 0 0 20px rgba($color-black, 0.3);
+      box-shadow: 0 0 2rem rgba($color-black, 0.3);
     }
   }
 
   &__left,
   &__right {
-    border-top: 1px solid rgba($color-white, 0.4);
-    padding-top: 25px;
-    line-height: 26px;
+    border-top: 0.1rem solid rgba($color-white, 0.4);
+    padding-top: 2.5rem;
+    line-height: 2.6rem;
   }
 
   &__right {
-    width: 464px;
-    height: 161px;
+    width: 46.4rem;
+    height: 16.1rem;
   }
 }

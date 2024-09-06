@@ -147,7 +147,7 @@ body {
 }
 
 .u-margin-l-68 {
-  margin-left: 64px;
+  margin-left: 6.4rem;
 }
 
 .u-flex {
@@ -248,20 +248,20 @@ body {
   cursor: pointer;
   color: #fff;
   background: #55c57a;
-  width: 183px;
-  height: 45px;
+  width: 18.3rem;
+  height: 4.5rem;
   text-transform: uppercase;
-  margin-left: 62px;
-  margin-top: 43px;
+  margin-left: 6.2rem;
+  margin-top: 4.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .btn--modal {
-  width: 174px !important;
-  height: 60px !important;
+  width: 17.4rem !important;
+  height: 6rem !important;
   background-color: #55c57a !important;
   color: #fff !important;
   text-transform: uppercase;
@@ -348,8 +348,8 @@ body {
 }
 
 .form {
-  width: 1140px;
-  height: 531px;
+  width: 114rem;
+  height: 53.1rem;
   background: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../images/nat-10.jpg);
   background-size: cover;
   position: absolute;
@@ -360,43 +360,43 @@ body {
 }
 .form__form-tag {
   width: 50%;
-  padding-top: 74px;
-  padding-left: 61px;
+  padding-top: 7.4rem;
+  padding-left: 6.1rem;
 }
 .form__title {
-  margin-bottom: 60px !important;
+  margin-bottom: 6rem !important;
   text-align: left !important;
 }
 .form__input {
-  width: 402px;
-  height: 51px;
+  width: 40.2rem;
+  height: 5.1rem;
   border: none;
-  margin-top: 26px;
-  padding-left: 20px;
+  margin-top: 2.6rem;
+  padding-left: 2rem;
   display: block;
-  border-bottom: 3px solid transparent;
+  border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
-  border-radius: 3px;
+  border-radius: 0.3rem;
 }
 .form__input, .form__input::placeholder {
   color: #777;
 }
 .form__input:focus {
   outline: none;
-  border-bottom: 3px solid #55c57a;
+  border-bottom: 0.3rem solid #55c57a;
 }
 .form__input:focus:invalid {
-  border-bottom: 3px solid #ff7f2b;
+  border-bottom: 0.3rem solid #ff7f2b;
 }
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-30px);
+  transform: translateY(-3rem);
 }
 .form__label {
   display: inline-block;
-  padding-left: 18px;
-  margin-top: 5px;
+  padding-left: 1.8rem;
+  margin-top: 0.5rem;
   transition: all 0.5s;
 }
 .form__radio-input {
@@ -407,12 +407,12 @@ body {
 }
 .form__radio-button {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  border: 5px solid #55c57a;
+  width: 3rem;
+  height: 3rem;
+  border: 0.5rem solid #55c57a;
   border-radius: 50%;
-  transform: translateY(10px);
-  margin-right: 15px;
+  transform: translateY(1rem);
+  margin-right: 1.5rem;
   position: relative;
 }
 .form__radio-button::after {
@@ -420,8 +420,8 @@ body {
   visibility: none;
   transition: all 0.3s;
   content: "";
-  width: 15px;
-  height: 15px;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background-color: #55c57a;
   position: absolute;
@@ -517,7 +517,7 @@ body {
   color: #777;
   margin-top: 4rem;
 }
-.front--description .front-list-item {
+.front--description .front-list-item:not(:last-child) {
   border-bottom: 0.1rem solid rgba(119, 119, 119, 0.2);
   padding-bottom: 1.5rem;
   margin-bottom: 0.7rem;
@@ -571,7 +571,7 @@ body {
   outline: 1.5rem solid #77cd6d;
   outline-offset: 1.8rem;
   border-radius: 1rem;
-  z-index: 3;
+  z-index: 4;
   transform: scale(1.05);
 }
 .composition .nat-1 {
@@ -590,21 +590,21 @@ body {
 .footer {
   color: #fff;
   background-color: #333;
-  padding: 0 70px 100px;
-  margin-bottom: 10px;
+  padding: 0 7rem 10rem;
+  margin-bottom: 1rem;
 }
 .footer__logo-box {
   text-align: center;
-  padding-top: 108px;
-  margin-bottom: 85px;
+  padding-top: 10.8rem;
+  margin-bottom: 8.5rem;
 }
 .footer__logo {
-  width: 150px;
+  width: 15rem;
 }
 .footer__content-list {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 1.5rem;
 }
 .footer__link:link, .footer__link:visited {
   display: inline-block;
@@ -616,16 +616,16 @@ body {
 .footer__link:hover {
   transform: scale(1.1) rotate(8deg);
   color: #55c57a;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
 }
 .footer__left, .footer__right {
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
-  padding-top: 25px;
-  line-height: 26px;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.4);
+  padding-top: 2.5rem;
+  line-height: 2.6rem;
 }
 .footer__right {
-  width: 464px;
-  height: 161px;
+  width: 46.4rem;
+  height: 16.1rem;
 }
 
 .header {
@@ -666,7 +666,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(1rem);
   color: #777;
   z-index: 300;
   opacity: 0;
@@ -680,20 +680,20 @@ body {
   transform: scale(1);
 }
 .modal__content {
-  width: 1013px;
-  height: 510px;
+  width: 101.3rem;
+  height: 51rem;
   display: flex;
   background: #fff;
-  border-radius: 4px;
+  border-radius: 0.4rem;
   overflow: hidden;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
   position: relative;
   transition: all 0.5s ease-out;
   transform: scale(0.1);
 }
 .modal__images {
   height: 100%;
-  width: 338px;
+  width: 33.8rem;
   display: flex;
   flex-direction: column;
 }
@@ -709,30 +709,30 @@ body {
   background: url(../images/nat-9.jpg);
 }
 .modal__text {
-  width: 670px;
-  height: 511px;
-  padding: 40px;
+  width: 67rem;
+  height: 51.1rem;
+  padding: 4rem;
 }
 .modal__title {
   text-align: left !important;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 .modal__subtitle {
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 .modal__paragraph {
-  font-size: 14px;
+  font-size: 1.4rem;
   column-count: 2;
-  line-height: 22px;
-  column-rule: 1px solid rgba(119, 119, 119, 0.2);
+  line-height: 2.2rem;
+  column-rule: 0.1rem solid rgba(119, 119, 119, 0.2);
   hyphens: auto;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 .modal__close:link, .modal__close:visited {
   position: absolute;
-  top: 20px;
-  right: 24px;
+  top: 2rem;
+  right: 2.4rem;
   font-size: 3rem;
   cursor: pointer;
   transition: all 0.2s;
@@ -745,29 +745,29 @@ body {
 
 .popup__background {
   z-index: 100;
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   background: radial-gradient(#77cd6d, #29b383);
   transform: scale(1);
   position: fixed;
-  top: 70px;
-  right: 70px;
+  top: 7rem;
+  right: 7rem;
   transition: all 0.8s ease-in-out;
 }
 .popup__checkbox {
   display: none;
 }
 .popup__label {
-  width: 70px;
-  height: 70px;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   background-color: #fff;
   position: fixed;
-  top: 60px;
-  right: 60px;
+  top: 6rem;
+  right: 6rem;
   z-index: 200;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 .popup__button {
@@ -779,16 +779,16 @@ body {
   position: absolute;
   display: inline-block;
   content: "";
-  width: 30px;
-  height: 2px;
+  width: 3rem;
+  height: 0.2rem;
   background: #000;
   transition: all 0.2s;
 }
 .popup__button::before {
-  top: -7px;
+  top: -0.7rem;
 }
 .popup__button::after {
-  top: 7px;
+  top: 0.7rem;
 }
 .popup__content {
   z-index: 200;
@@ -811,12 +811,12 @@ body {
 .popup__link:link, .popup__link:visited {
   color: #fff;
   font-family: lato-light;
-  font-size: 25px;
+  font-size: 2.5rem;
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 20px;
-  margin: 10px 0;
+  padding: 2rem;
+  margin: 1rem 0;
   background: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
   background-size: 231%;
   transition: all 0.3s;
@@ -824,7 +824,7 @@ body {
 .popup__link:hover {
   background-position: 100%;
   color: #55c57a;
-  transform: translateX(8px);
+  transform: translateX(0.8rem);
 }
 .popup__checkbox:checked + .popup__background {
   transform: scale(100);
@@ -846,10 +846,10 @@ body {
   transform: rotate(135deg);
 }
 .popup__label:hover .popup__button::after {
-  top: 9px;
+  top: 0.9rem;
 }
 .popup__label:hover .popup__button::before {
-  top: -9px;
+  top: -0.9rem;
 }
 
 .section__title {
@@ -913,8 +913,110 @@ body {
 
 .section_six {
   background: linear-gradient(to right bottom, #77cd6d, #29b383);
-  height: 831px;
+  height: 83.1rem;
   position: relative;
+}
+
+/*
+
+basically set for 4 devices (breakpoints) in these sizes:
+
+large screens     : 112.5em (1800px)
+tablet landscape  : 75em    (1200px) 
+tablet portrait   : 56.25em (900px)
+phone             : 37.5em  (600px)
+
+*/
+@media (max-width: 75em) {
+  html {
+    font-size: 54%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    padding: 0;
+  }
+  .section_two {
+    height: calc(106rem + 25vh);
+  }
+  .composition {
+    flex-direction: column;
+    align-items: center;
+  }
+  .composition img {
+    width: 175px;
+  }
+  .composition__right {
+    margin-top: 40px;
+    margin-left: -500px;
+  }
+  .composition .nat-1 {
+    left: 3.2rem;
+    top: 2.5rem;
+  }
+  .composition .nat-2 {
+    top: 0.6rem;
+    left: 19rem;
+    z-index: 3;
+  }
+  .composition .nat-3 {
+    top: 2.4rem;
+    left: 32.4rem;
+  }
+  .section_three {
+    height: 146rem;
+  }
+  .cards_wrapper {
+    flex-direction: column;
+  }
+  .feature_card {
+    width: 44rem;
+    height: 25.5rem;
+  }
+  .tour_cards_wrapper {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .tour_card {
+    width: unset;
+    height: unset;
+  }
+  .tour_card:not(:first-child) {
+    margin-top: 0;
+  }
+  .tour_card__front, .tour_card__back {
+    position: unset;
+    width: 355px;
+  }
+  .tour_card__front {
+    height: 477px;
+  }
+  .tour_card__back {
+    transform: rotateY(0deg);
+    height: 230px;
+    margin-top: -104px;
+    border-radius: 0 0 10px 10px;
+    clip-path: polygon(0 33%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .tour_card:hover .tour_card__front {
+    transform: unset;
+  }
+  .tour_card:hover .tour_card__back {
+    transform: unset;
+  }
+  .back--title {
+    margin-top: 83px;
+  }
+  .back--price {
+    font-size: 4rem;
+    margin-top: 0;
+  }
+  .btn--tour_card {
+    margin-top: 24px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
