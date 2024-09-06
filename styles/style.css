@@ -51,6 +51,10 @@ body {
   padding: 3rem;
 }
 
+::selection {
+  background-color: #55c57a;
+}
+
 @font-face {
   font-family: "Lato-Black";
   src: url(../fonts/Lato-Black.ttf);
@@ -781,7 +785,7 @@ body {
   display: inline-block;
   content: "";
   width: 3rem;
-  height: 0.2rem;
+  height: 2px;
   background: #000;
   transition: all 0.2s;
 }
@@ -948,11 +952,11 @@ phone             : 37.5em  (600px)
     align-items: center;
   }
   .composition img {
-    width: 175px;
+    width: 21.875rem;
   }
   .composition__right {
-    margin-top: 40px;
-    margin-left: -500px;
+    margin-top: 5rem;
+    margin-left: -62.5rem;
   }
   .composition .nat-1 {
     left: 3.2rem;
@@ -979,7 +983,7 @@ phone             : 37.5em  (600px)
   }
   .tour_cards_wrapper {
     flex-direction: column;
-    gap: 48px;
+    gap: 6rem;
   }
   .tour_card {
     width: unset;
@@ -990,16 +994,16 @@ phone             : 37.5em  (600px)
   }
   .tour_card__front, .tour_card__back {
     position: unset;
-    width: 355px;
+    width: 44.375rem;
   }
   .tour_card__front {
-    height: 477px;
+    height: 59.625rem;
   }
   .tour_card__back {
     transform: rotateY(0deg);
-    height: 230px;
-    margin-top: -104px;
-    border-radius: 0 0 10px 10px;
+    height: 28.75rem;
+    margin-top: -13rem;
+    border-radius: 0 0 1.25rem 1.25rem;
     clip-path: polygon(0 33%, 100% 0, 100% 100%, 0% 100%);
   }
   .tour_card:hover .tour_card__front {
@@ -1016,30 +1020,30 @@ phone             : 37.5em  (600px)
     margin-top: 0;
   }
   .btn--tour_card {
-    margin-top: 24px;
+    margin-top: 3rem;
   }
   .comment-card {
-    width: 419px;
-    height: 315px;
+    width: 52.375rem;
+    height: 39.375rem;
   }
   .form {
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/nat-10.jpg);
-    width: 352px;
-    height: 500px;
+    width: 44rem;
+    height: 62.5rem;
   }
   .form__title {
-    width: 271px;
+    width: 33.875rem;
   }
   .form__input {
-    width: 256px;
-    height: 42px;
+    width: 32rem;
+    height: 5.25rem;
   }
   .form__radio-label {
     display: block;
     width: max-content;
   }
   .form__radio-label:last-child {
-    margin-top: 9px;
+    margin-top: 1.125rem;
   }
   .form__radio-button {
     margin: unset;
@@ -1048,11 +1052,39 @@ phone             : 37.5em  (600px)
     width: 20rem;
   }
   .footer__right {
-    margin-top: 80px;
+    margin-top: 10rem;
   }
   .u-flex {
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 37.5em) {
+  html {
+    font-size: 48%;
+  }
+  .popup__background {
+    top: 3rem;
+    right: 3rem;
+  }
+  .popup__label {
+    top: 2.5rem;
+    right: 2.5rem;
+  }
+  .header--main_text, .header--sub_text {
+    letter-spacing: 1.4rem;
+  }
+  .comment-card {
+    transform: unset;
+  }
+  .comment-card > * {
+    transform: unset;
+  }
+  .comment-card__shape {
+    transform: translateX(-3.4rem);
+  }
+  .comment-card__title {
+    transform: translateX(-1.2rem);
   }
 }
 

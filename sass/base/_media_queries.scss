@@ -33,12 +33,12 @@ phone             : 37.5em  (600px)
     align-items: center;
 
     img {
-      width: 175px;
+      width: 21.875rem;
     }
 
     &__right {
-      margin-top: 40px;
-      margin-left: -500px;
+      margin-top: 5rem;
+      margin-left: -62.5rem;
     }
 
     .nat-1 {
@@ -73,7 +73,7 @@ phone             : 37.5em  (600px)
 
   .tour_cards_wrapper {
     flex-direction: column;
-    gap: 48px;
+    gap: 6rem;
   }
 
   .tour_card {
@@ -86,18 +86,18 @@ phone             : 37.5em  (600px)
     &__front,
     &__back {
       position: unset;
-      width: 355px;
+      width: 44.375rem;
     }
 
     &__front {
-      height: 477px;
+      height: 59.625rem;
     }
 
     &__back {
       transform: rotateY(0deg);
-      height: 230px;
-      margin-top: -104px;
-      border-radius: 0 0 10px 10px;
+      height: 28.75rem;
+      margin-top: -13rem;
+      border-radius: 0 0 1.25rem 1.25rem;
       clip-path: polygon(0 33%, 100% 0, 100% 100%, 0% 100%);
     }
 
@@ -121,12 +121,12 @@ phone             : 37.5em  (600px)
     }
   }
   .btn--tour_card {
-    margin-top: 24px;
+    margin-top: 3rem;
   }
 
   .comment-card {
-    width: 419px;
-    height: 315px;
+    width: 52.375rem;
+    height: 39.375rem;
   }
   .form {
     background: linear-gradient(
@@ -134,21 +134,21 @@ phone             : 37.5em  (600px)
         rgba($color-white, 0.9)
       ),
       url(../images/nat-10.jpg);
-    width: 352px;
-    height: 500px;
+    width: 44rem;
+    height: 62.5rem;
     &__title {
-      width: 271px;
+      width: 33.875rem;
     }
     &__input {
-      width: 256px;
-      height: 42px;
+      width: 32rem;
+      height: 5.25rem;
     }
     &__radio-label {
       display: block;
       width: max-content;
 
       &:last-child {
-        margin-top: 9px;
+        margin-top: 1.125rem;
       }
     }
     &__radio-button {
@@ -161,11 +161,49 @@ phone             : 37.5em  (600px)
       width: 20rem;
     }
     &__right {
-      margin-top: 80px;
+      margin-top: 10rem;
     }
   }
   .u-flex {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 48%;
+  }
+  .popup {
+    &__background {
+      top: 3rem;
+      right: 3rem;
+    }
+
+    &__label {
+      top: 2.5rem;
+      right: 2.5rem;
+    }
+  }
+  .header {
+    &--main_text,
+    &--sub_text {
+      letter-spacing: 1.4rem;
+    }
+  }
+
+  .comment-card {
+    transform: unset;
+    & > * {
+      transform: unset;
+    }
+
+    &__shape {
+      transform: translateX(-3.4rem);
+    }
+
+    &__title {
+      transform: translateX(-1.2rem);
+    }
   }
 }
