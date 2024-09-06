@@ -1044,32 +1044,16 @@ phone             : 37.5em  (600px)
   .form__radio-button {
     margin: unset;
   }
-  /*
-    .form{
-
+  .footer__logo {
+    width: 20rem;
   }
-  .section__title{
-
+  .footer__right {
+    margin-top: 80px;
   }
-  &__group{
-
+  .u-flex {
+    flex-direction: column;
+    align-items: center;
   }
-  &__label{
-
-  }
-  &__radio-input{
-
-  }
-  .u-margin-l-68{
-
-  }
-  .btn{
-
-  }
-  .btn--form-submit{
-
-  }
-    */
 }
 
 /*# sourceMappingURL=style.css.map */

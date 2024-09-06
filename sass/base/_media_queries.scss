@@ -128,7 +128,6 @@ phone             : 37.5em  (600px)
     width: 419px;
     height: 315px;
   }
-  // ! = = = = = = = = = = = = = = = = = = = testing phase = = = = = = = = = = = = = = = = = = = = = = = = = = = =
   .form {
     background: linear-gradient(
         rgba($color-white, 0.9),
@@ -148,7 +147,7 @@ phone             : 37.5em  (600px)
       display: block;
       width: max-content;
 
-      &:last-child{
+      &:last-child {
         margin-top: 9px;
       }
     }
@@ -156,30 +155,17 @@ phone             : 37.5em  (600px)
       margin: unset;
     }
   }
-  /*
-  .form{
 
-}
-.section__title{
-
-}
-&__group{
-
-}
-&__label{
-
-}
-&__radio-input{
-
-}
-.u-margin-l-68{
-
-}
-.btn{
-
-}
-.btn--form-submit{
-
-}
-  */
+  .footer {
+    &__logo {
+      width: 20rem;
+    }
+    &__right {
+      margin-top: 80px;
+    }
+  }
+  .u-flex {
+    flex-direction: column;
+    align-items: center;
+  }
 }
